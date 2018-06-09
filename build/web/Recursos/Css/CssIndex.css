@@ -1,0 +1,148 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+
+
+}
+.banner{
+    margin-top: 0px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header nav{
+    /*background: #3b0066;*/
+    /*background: #47446C;*/
+    background: lightyellow;
+    margin-bottom: 10px;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+    /*-webkit-box-shadow: 10px 10px 6px -6px #777;*/
+    -webkit-box-shadow: 0px 0px 10px #777;
+    -moz-box-shadow: 10px 10px 6px -6px #777;
+    box-shadow: 10px 10px 10px -6px #777;
+}
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+    width:100%;
+    display: block;
+    /*display: flex;/* modificado*/
+
+}
+header nav ul li{
+    float: left;
+   /*flex-direction: row;*/
+    text-decoration: none;
+}
+ .listalogin{
+     display: block;
+     float: right;
+}
+header nav ul li a{
+    display: block;
+    padding: 15px  20px;
+    color:#000;
+    text-decoration:none;
+
+}
+
+header nav ul li a:hover{
+    background: #17233c;
+    color:#419641;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+header nav ul li:hover{
+    text-decoration:none;
+}
+
+
+.icon-home{
+    padding-top: 1px;
+    display:inline-block;
+    vertical-align: top;
+    margin-bottom: 0;
+    font-family: sans-serif;
+
+}
+
+a{
+    font-family: sans-serif;
+    font-style: normal;
+}
+/* responsive*/
+header{
+    background: #0B3861;
+
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    padding: 7px 10px;
+    margin-bottom: 0;
+    border-right: 1px solid #fff;
+
+}
+header label:hover{
+    cursor: pointer;
+    padding: 9px;
+    background: rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px){
+    header label{
+        display: block;
+    }
+    header nav ul{
+        display: flex;
+    }
+    header nav ul li{
+        justify-content: flex-start;
+    }
+    .listalogin{
+        justify-content: flex-start;
+        
+    }
+    
+    header nav ul li a{
+    padding: 15px  10px;
+    }
+
+    .menu{
+        position: absolute;
+        /*background: #3b0066;*/
+        width: 18%;
+        margin-left: -50%;
+        transition: all 0.5s;
+        box-shadow: none;
+        z-index: 1000;
+    }
+    .menu ul{
+      flex-direction: column;
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+        
+    }
+
+    header nav ul li a{
+    font-size: 0.35em ;
+
+    }
+
+}

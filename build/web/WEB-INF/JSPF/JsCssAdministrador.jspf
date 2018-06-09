@@ -1,0 +1,16 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<!--<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>-->
+<script src="Recursos/JQuery/jquery-3.1.1.js" type="text/javascript"></script>
+<link href="Recursos/BootsTrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="Recursos/Css/administrador/bootstrap.css" rel="stylesheet" type="text/css"/>
+<script src="Controlador/angular.min.js" type="text/javascript"></script>
+<link href="Recursos/Css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="Recursos/Css/Cssjspf.css" rel="stylesheet" type="text/css"/>
+<link href="Recursos/Css/administrador/CssAdministrador.css" rel="stylesheet" type="text/css"/>
+<link href="Recursos/Css/administrador/custom.css" rel="stylesheet" type="text/css"/>
+<script src="Recursos/js/CapasDivInfoUsuario.js" type="text/javascript"></script>
+<script src="Recursos/JQuery/jqueryResolucionWindow.js" type="text/javascript"></script>
+<script src="Controlador/AdministradorController.js" type="text/javascript"></script>
+<script src="Recursos/JQuery/Cargaadministrador.js" type="text/javascript"></script>

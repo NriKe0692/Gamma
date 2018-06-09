@@ -1,0 +1,19 @@
+
+.content{
+    height: 550px;
+    width: 100%;
+    top:0;
+    margin:0;
+    padding:0;
+    position:relative; 
+
+}
+header{
+    height: 20%;
+    position: relative;
+}
+
+footer{
+    height: 20%;
+    position: relative;
+}

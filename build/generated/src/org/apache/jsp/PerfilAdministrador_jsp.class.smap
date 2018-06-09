@@ -1,0 +1,21 @@
+SMAP
+PerfilAdministrador_jsp.java
+JSP
+*S JSP
+*F
++ 0 PerfilAdministrador.jsp
+PerfilAdministrador.jsp
++ 1 JsCssAdministrador.jspf
+WEB-INF/JSPF/JsCssAdministrador.jspf
++ 2 Bottom.jspf
+WEB-INF/JSPF/Bottom.jspf
+*L
+1,2:51
+7,10:53
+1#1,11:63
+16#0,56:74
+77:136,2
+78,445:138
+1#2,26:583
+522#0,3:609
+*E

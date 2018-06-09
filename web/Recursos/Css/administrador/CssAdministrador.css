@@ -1,0 +1,68 @@
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+.divSalir{
+    color: white;
+    padding: 10px 25px 5px 50px;
+    float: right;
+    font-size: 0.85em;
+}
+.validardatos{
+    background: #FCD0DF;
+    width: 49%;
+    padding: auto;
+    color: #B00811;
+transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  font-size: 14px;
+
+}
+.c0{
+    display: none
+}
+.c1{
+
+    display: block;
+}
+.c2{
+
+    display: none;
+}
+.c3{
+
+    display: none;
+}
+.c4{
+
+    display: none;
+}
+#l1{
+    background: #C90000;
+    cursor:pointer
+}
+#l2{
+    cursor:pointer
+
+}
+#l3{
+
+    cursor:pointer
+}
+#l4{
+    cursor:pointer
+
+}
+.btn-warning{
+    display:block;
+    float:right;
+}
+.tabla-top{
+    margin-top: 10px;
+}
+h1{
+    color: #3F4872;
+
+}

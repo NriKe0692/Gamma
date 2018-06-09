@@ -1,0 +1,26 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+</div>
+    <footer id="footer">
+        <div>
+        <small>
+            <a>Developers</a><br>
+            <div>
+                <div>
+                    <p >Tatiana Ayala Lozada | Celiz Polo Samantha</p>  
+                </div>
+            </div>
+            <div>
+                <div class="copyright">
+                    <a class="icon-facebook2" href="http://www.gamma.com.pe/"  target="_blank"></a>
+                    <a class="icon-google2" href="mailto:developeraqc@gmail.com"></a>
+                </div>
+                <div class="copyright">
+                    <a >Derechos Reservados &copy; 2017</a>
+                </div>
+            </div>
+        </small>
+        </div>
+    </footer>
+</div>
